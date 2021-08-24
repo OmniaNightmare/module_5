@@ -1,0 +1,108 @@
+body{
+    margin: 0 auto;
+    padding: 0 auto;
+    font-family: 'Comfortaa', cursive;
+}
+
+.copyright{
+    font-size: 12px;
+    text-align: center;
+    color: rgb(107, 106, 106);
+}
+
+.header{
+    background: url(https://www.voglioviverecosi.com/wp-content/uploads/2019/12/GIAPPONE-TOP-1920x912.jpg) no-repeat top;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+}
+.main_h{
+    text-align: center;
+    font-size: 150%;
+    height: 120px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+.main_h:hover{
+    transition: .5s;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+h1{
+    color: white;
+    
+}
+
+.navigation{
+    height: 38px;
+    background-color: white;
+    text-align: center;
+}
+
+.navigation ul{
+    padding: 10px 0 0 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    list-style: none;
+}
+
+.navigation ul a{
+    border-radius: 10px;
+    padding: 5px 5px;
+    margin: 10px 10px;
+    text-decoration: none;
+    color: rgb(228, 110, 81);;
+}
+
+.navigation ul a:hover{
+    background-color: rgb(228, 110, 81);
+    color: white;
+    transition: .5s;
+}
+
+.news{
+    background-color: #fff;
+    padding: 0 0 15px;
+}
+
+article{
+    width: 768px;
+    margin: 0 auto;
+    padding: 6px 15px;
+    border-bottom: 1ps solid rgb(255, 0, 170);
+}
+article a{
+    text-decoration: none;
+    color: black;
+}
+article a:hover{
+    color: rgb(228, 110, 81);
+}
+article h2{
+    margin-bottom: 5px;
+}
+.article_meta{
+    font-size: .7em;
+    color: gray;
+    margin-bottom: 5px;
+}
+article img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.5); 
+}
+article img:hover{
+    transition: 1s;
+    scale: 102%;
+}
+article p{
+    font-size: 14px;
+}

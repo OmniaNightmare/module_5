@@ -1,32 +1,79 @@
-<!-- Главная страница сайта -->
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="utf-8">
-    <title>Моя первая веб-страница</title>     <!-- Название, которое отображается во вкладке -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap" rel="stylesheet">
+    <title>Новостной сайт</title>
 </head>
-    <!-- Основное тело сайта -->
 <body>
-    <!-- Шапка сайта -->
-    <header> 
-        <!-- Тут начинается блок навигации -->
-        <a href="#">Главная</a>
-        <a href="pages/about.html">О нас</a>
-        <a href="pages/contacts.html">Контакты</a>
+    <header>
+        <div class="header">
+           <div class="main_h"><h1>Новости</h1></div>
+        </div>
+        <nav>
+            <div class="navigation">
+                    <ul>
+                        <li><a href="#">Вакансии</a></li>
+                        <li><a href="#">Контакты</a></li>
+                        <li><a href="#">О нас</a></li>
+                        <li><a href="#">Реклама</a></li>
+                    </ul>
+            </div>
+        </nav>
     </header>
-    <main> 
-        <!-- Блок с текстом -->
-        <h1>Моя первая веб-страница</h1>
-        <h2>Про меня</h2>
-        <p>Меня зовут Вася. Я работаю <strong>маркетологом</strong>. Решил получше узнать смежную профессию, чтобы разобраться как устроен веб.</p>
-        <p>Живу в Питере. Люблю кататься на велосипеде.</p>
-        <h2>Чему я хочу научиться</h2>
-        <p>На <em>этом</em> курсе я хотел бы научиться создавать сайты с нуля.</p>
-        <img src="/img/main.jpg" alt="Скриншот с сайта Validator W3C" height="800px">
-    </main>
-    <!-- Футер -->
-    <footer>
-        <span>&copy;&nbsp;Skillfactory</span>
-    </footer>
+<main>
+<section class="news">
+    <article>
+        <a href="#"><h2>Отличные новости!</h2></a>
+        <div class="article_meta">
+            Опубликовал <a href="#">Василий Петров</a> 24.08.2021
+        </div>
+        <img src="https://www.tourprom.ru/site_media/cache/ec/f2/ecf231c2949712844c983f9d819204fc.jpg" alt="Картинка">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ipsa odio repudiandae? Possimus similique unde reiciendis nostrum iure nemo quia tempore officia numquam!</p>
+    </article>
+    <article>
+        <a href="#"><h2>Отличные новости 2!</h2></a>
+        <div class="article_meta">
+            Опубликовал <a href="#">Василий Петров</a> 24.08.2021
+        </div>
+        <img src="https://wide-w.com/wp-content/uploads/2018/10/priroda-japonskij-sad.jpg" alt="Картинка">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ipsa odio repudiandae? Possimus similique unde reiciendis nostrum iure nemo quia tempore officia numquam!</p>
+    </article>
+    <article>
+        <a href="#"><h2>Отличные новости 3!</h2></a>
+        <div class="article_meta">
+            Опубликовал <a href="#">Василий Петров</a> 24.08.2021
+        </div>
+        <img src="https://img4.goodfon.ru/wallpaper/nbig/7/42/christopher-schiefer-art-japan-iaponiia.jpg" alt="Картинка">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ipsa odio repudiandae? Possimus similique unde reiciendis nostrum iure nemo quia tempore officia numquam!</p>
+    </article>
+    <article>
+        <a href="#"><h2>Отличные новости 4!</h2></a>
+        <div class="article_meta">
+            Опубликовал <a href="#">Василий Петров</a> 24.08.2021
+        </div>
+        <img src="https://99px.ru/sstorage/53/2021/02/tmb_323997_423462.jpg" alt="Картинка">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ipsa odio repudiandae? Possimus similique unde reiciendis nostrum iure nemo quia tempore officia numquam!</p>
+    </article>
+    <article>
+        <a href="#"><h2>Отличные новости 5!</h2></a>
+        <div class="article_meta">
+            Опубликовал <a href="#">Василий Петров</a> 24.08.2021
+        </div>
+        <img src="https://img5.goodfon.ru/wallpaper/nbig/d/73/alex-ichim-mc5-concept-art-japanese-temple-art-iaponskii-khr.jpg" alt="Картинка">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ipsa odio repudiandae? Possimus similique unde reiciendis nostrum iure nemo quia tempore officia numquam!</p>
+    </article>
+</section>
+</main>
+
+<footer>
+    <div class="copyright"><p>Copyright &#169; OmniaNightmare 2021</p></div>
+</footer>
+
+
 </body>
-</html> 
+
+</html>

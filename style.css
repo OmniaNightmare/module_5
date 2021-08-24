@@ -57,25 +57,27 @@ h1{
     padding: 5px 5px;
     margin: 10px 10px;
     text-decoration: none;
-    color: rgb(228, 110, 81);;
+    color: rgb(228, 110, 81);
+    transition: .5s;
 }
 
 .navigation ul a:hover{
     background-color: rgb(228, 110, 81);
     color: white;
-    transition: .5s;
 }
 
 .news{
+    width: 798px;
+    margin: 0 auto;
     background-color: #fff;
     padding: 0 0 15px;
+    position: relative;
 }
 
 article{
     width: 768px;
     margin: 0 auto;
     padding: 6px 15px;
-    border-bottom: 1ps solid rgb(255, 0, 170);
 }
 article a{
     text-decoration: none;
@@ -98,11 +100,25 @@ article img{
     object-fit: cover;
     border-radius: 20px;
     box-shadow: 0 0 15px rgba(0,0,0,0.5); 
+    transition: 1s;
+    filter: grayscale(70%); 
 }
 article img:hover{
-    transition: 1s;
     scale: 102%;
+    filter: brightness(120%);
+    filter: grayscale(0%); 
 }
 article p{
     font-size: 14px;
+}
+
+article:nth-child(even){
+    border-radius: 20px;
+    background-color: rgb(255, 163, 130);
+}
+
+.split{
+    position: absolute;    
+    width: 798px;
+    border-top: 1px solid black;
 }

@@ -81,22 +81,11 @@ article{
     padding: 6px 15px;
 }
 
-.head_article{
-    display: flex;
-    justify-content: space-between;
-}
-
-.head_article p{
-    padding: 0;
-    margin: 20px 0 0 0;
-    font-size: 1.5em;
+article:nth-child(-n+2) .mainh h2::after{
+    margin-left: 350px;
+    content: "NEW!";
     color: rgb(107, 192, 107);
 }
-
-article:nth-child(n+3) .new {
-    display: none;
-  }
-
 
 article a{
     text-decoration: none;
